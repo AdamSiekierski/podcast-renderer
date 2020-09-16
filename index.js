@@ -1,8 +1,8 @@
 const ffmpeg = require('fluent-ffmpeg');
 
-const episodeTitle = `require(#10) - Trochę o Reakcie`;
-const audioFile = 'require10_mixdown.mp3';
-const outputFile = 'require10.mp4';
+const episodeTitle = `require(#14) - Czego nauczyć się w wakacje?`;
+const audioFile = 'require 14_mixdown.mp3';
+const outputFile = 'require14.mp4';
 
 function encodeText(text) {
   return text.replace("'", "\\\\\\'");
